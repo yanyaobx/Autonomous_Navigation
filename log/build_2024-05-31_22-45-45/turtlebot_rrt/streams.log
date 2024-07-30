@@ -1,0 +1,23 @@
+[0.538s] Invoking command in '/home/rcpsl/Xue_Yanyaobo_ws/src/turtlebot_rrt': PYTHONPATH=/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/prefix_override:/home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_rrt build --build-base /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build install --record /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log --single-version-externally-managed install_data
+[0.774s] running egg_info
+[0.774s] writing ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/PKG-INFO
+[0.774s] writing dependency_links to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/dependency_links.txt
+[0.774s] writing entry points to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/entry_points.txt
+[0.774s] writing requirements to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/requires.txt
+[0.774s] writing top-level names to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/top_level.txt
+[0.776s] reading manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+[0.777s] writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+[0.778s] running build
+[0.778s] running build_py
+[0.778s] running install
+[0.779s] running install_lib
+[0.780s] running install_data
+[0.780s] running install_egg_info
+[0.781s] removing '/home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt-0.0.0-py3.10.egg-info' (and everything under it)
+[0.782s] Copying ../../build/turtlebot_rrt/turtlebot_rrt.egg-info to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt-0.0.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.795s] Installing map_reader script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+[0.796s] Installing motion_planner script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+[0.796s] Installing rrt_node script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+[0.796s] writing list of installed files to '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log'
+[0.815s] Invoked command in '/home/rcpsl/Xue_Yanyaobo_ws/src/turtlebot_rrt' returned '0': PYTHONPATH=/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/prefix_override:/home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_rrt build --build-base /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build install --record /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log --single-version-externally-managed install_data

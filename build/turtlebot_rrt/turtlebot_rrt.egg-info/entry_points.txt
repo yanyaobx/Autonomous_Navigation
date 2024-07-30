@@ -1,0 +1,5 @@
+[console_scripts]
+map_reader = turtlebot_rrt.map_reader_template:main
+motion_planner = turtlebot_rrt.motion_planner:main
+rrt_node = turtlebot_rrt.rrt_node:main
+

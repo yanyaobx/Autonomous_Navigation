@@ -1,0 +1,48 @@
+[0.417s] Invoking command in '/home/rcpsl/Xue_Yanyaobo_ws/src/turtlebot_rrt': PYTHONPATH=/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/prefix_override:/home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_rrt build --build-base /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build install --record /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log --single-version-externally-managed install_data
+[0.580s] running egg_info
+[0.580s] creating ../../build/turtlebot_rrt/turtlebot_rrt.egg-info
+[0.580s] writing ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/PKG-INFO
+[0.581s] writing dependency_links to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/dependency_links.txt
+[0.581s] writing entry points to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/entry_points.txt
+[0.581s] writing requirements to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/requires.txt
+[0.581s] writing top-level names to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/top_level.txt
+[0.582s] writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+[0.583s] reading manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+[0.583s] writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.585s] creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build
+[0.585s] creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib
+[0.585s] creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+[0.585s] copying src/turtlebot_rrt/rrt.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+[0.585s] copying src/turtlebot_rrt/__init__.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+[0.585s] copying src/turtlebot_rrt/map_reader_template.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+[0.585s] copying src/turtlebot_rrt/rrt_node.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+[0.586s] copying src/turtlebot_rrt/motion_planner.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+[0.586s] running install
+[0.586s] running install_lib
+[0.587s] creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+[0.587s] copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/rrt.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+[0.587s] copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/__init__.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+[0.587s] copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/map_reader_template.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+[0.587s] copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/rrt_node.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+[0.587s] copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/motion_planner.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+[0.588s] byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/rrt.py to rrt.cpython-310.pyc
+[0.589s] byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/__init__.py to __init__.cpython-310.pyc
+[0.590s] byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/map_reader_template.py to map_reader_template.cpython-310.pyc
+[0.590s] byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/rrt_node.py to rrt_node.cpython-310.pyc
+[0.591s] byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/motion_planner.py to motion_planner.cpython-310.pyc
+[0.591s] running install_data
+[0.592s] creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index
+[0.592s] creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index
+[0.592s] creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index/packages
+[0.592s] copying resource/turtlebot_rrt -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index/packages
+[0.592s] copying package.xml -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/turtlebot_rrt
+[0.592s] running install_egg_info
+[0.593s] Copying ../../build/turtlebot_rrt/turtlebot_rrt.egg-info to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt-0.0.0-py3.10.egg-info
+[0.594s] running install_scripts
+[0.608s] Installing map_reader script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+[0.609s] Installing motion_planner script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+[0.609s] Installing rrt_node script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+[0.609s] writing list of installed files to '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log'
+[0.625s] Invoked command in '/home/rcpsl/Xue_Yanyaobo_ws/src/turtlebot_rrt' returned '0': PYTHONPATH=/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/prefix_override:/home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_rrt build --build-base /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build install --record /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[console_scripts]
+motion_planner = TurtleBot.scripts.Motion_Planner:main
+pid_controller = TurtleBot.scripts.PID_Controller:main
+rrt_node = TurtleBot.scripts.RRT_Node:main
+

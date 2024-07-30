@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000265] (turtlebot_rrt) JobQueued: {'identifier': 'turtlebot_rrt', 'dependencies': OrderedDict()}
+[0.000868] (turtlebot_rrt) JobStarted: {'identifier': 'turtlebot_rrt'}
+[0.099888] (-) TimerEvent: {}
+[0.200747] (-) TimerEvent: {}
+[0.301241] (-) TimerEvent: {}
+[0.401731] (-) TimerEvent: {}
+[0.416074] (turtlebot_rrt) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot_rrt', 'build', '--build-base', '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build', 'install', '--record', '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rcpsl/Xue_Yanyaobo_ws/src/turtlebot_rrt', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rcpsl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rcpsl', 'OLDPWD': '/home/rcpsl', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1242', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rcpsl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rcpsl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rcpsl-ros2-vm:@/tmp/.ICE-unix/1193,unix/rcpsl-ros2-vm:/tmp/.ICE-unix/1193', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9b3cdd6_5a84_495e_b7fc_7b7502d27b33', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HBY0N2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/prefix_override:/home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.501839] (-) TimerEvent: {}
+[0.580523] (turtlebot_rrt) StdoutLine: {'line': b'running egg_info\n'}
+[0.580890] (turtlebot_rrt) StdoutLine: {'line': b'creating ../../build/turtlebot_rrt/turtlebot_rrt.egg-info\n'}
+[0.581141] (turtlebot_rrt) StdoutLine: {'line': b'writing ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/PKG-INFO\n'}
+[0.581412] (turtlebot_rrt) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/dependency_links.txt\n'}
+[0.581646] (turtlebot_rrt) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/entry_points.txt\n'}
+[0.581807] (turtlebot_rrt) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/requires.txt\n'}
+[0.582154] (turtlebot_rrt) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/top_level.txt\n'}
+[0.582310] (turtlebot_rrt) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'\n"}
+[0.583592] (turtlebot_rrt) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'\n"}
+[0.584089] (turtlebot_rrt) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'\n"}
+[0.584422] (turtlebot_rrt) StdoutLine: {'line': b'running build\n'}
+[0.584831] (turtlebot_rrt) StdoutLine: {'line': b'running build_py\n'}
+[0.585306] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build\n'}
+[0.585482] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib\n'}
+[0.585654] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt\n'}
+[0.585801] (turtlebot_rrt) StdoutLine: {'line': b'copying src/turtlebot_rrt/rrt.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt\n'}
+[0.585875] (turtlebot_rrt) StdoutLine: {'line': b'copying src/turtlebot_rrt/__init__.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt\n'}
+[0.586152] (turtlebot_rrt) StdoutLine: {'line': b'copying src/turtlebot_rrt/map_reader_template.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt\n'}
+[0.586262] (turtlebot_rrt) StdoutLine: {'line': b'copying src/turtlebot_rrt/rrt_node.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt\n'}
+[0.586431] (turtlebot_rrt) StdoutLine: {'line': b'copying src/turtlebot_rrt/motion_planner.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt\n'}
+[0.586703] (turtlebot_rrt) StdoutLine: {'line': b'running install\n'}
+[0.587046] (turtlebot_rrt) StdoutLine: {'line': b'running install_lib\n'}
+[0.587455] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt\n'}
+[0.587634] (turtlebot_rrt) StdoutLine: {'line': b'copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/rrt.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt\n'}
+[0.587782] (turtlebot_rrt) StdoutLine: {'line': b'copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/__init__.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt\n'}
+[0.587928] (turtlebot_rrt) StdoutLine: {'line': b'copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/map_reader_template.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt\n'}
+[0.588083] (turtlebot_rrt) StdoutLine: {'line': b'copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/rrt_node.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt\n'}
+[0.588238] (turtlebot_rrt) StdoutLine: {'line': b'copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/motion_planner.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt\n'}
+[0.588631] (turtlebot_rrt) StdoutLine: {'line': b'byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/rrt.py to rrt.cpython-310.pyc\n'}
+[0.590282] (turtlebot_rrt) StdoutLine: {'line': b'byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/__init__.py to __init__.cpython-310.pyc\n'}
+[0.590571] (turtlebot_rrt) StdoutLine: {'line': b'byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/map_reader_template.py to map_reader_template.cpython-310.pyc\n'}
+[0.591136] (turtlebot_rrt) StdoutLine: {'line': b'byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/rrt_node.py to rrt_node.cpython-310.pyc\n'}
+[0.591711] (turtlebot_rrt) StdoutLine: {'line': b'byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/motion_planner.py to motion_planner.cpython-310.pyc\n'}
+[0.592129] (turtlebot_rrt) StdoutLine: {'line': b'running install_data\n'}
+[0.592317] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index\n'}
+[0.592576] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index\n'}
+[0.592707] (turtlebot_rrt) StdoutLine: {'line': b'creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index/packages\n'}
+[0.592839] (turtlebot_rrt) StdoutLine: {'line': b'copying resource/turtlebot_rrt -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index/packages\n'}
+[0.593015] (turtlebot_rrt) StdoutLine: {'line': b'copying package.xml -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/turtlebot_rrt\n'}
+[0.593187] (turtlebot_rrt) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.594291] (turtlebot_rrt) StdoutLine: {'line': b'Copying ../../build/turtlebot_rrt/turtlebot_rrt.egg-info to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt-0.0.0-py3.10.egg-info\n'}
+[0.595031] (turtlebot_rrt) StdoutLine: {'line': b'running install_scripts\n'}
+[0.602394] (-) TimerEvent: {}
+[0.609123] (turtlebot_rrt) StdoutLine: {'line': b'Installing map_reader script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt\n'}
+[0.609398] (turtlebot_rrt) StdoutLine: {'line': b'Installing motion_planner script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt\n'}
+[0.609520] (turtlebot_rrt) StdoutLine: {'line': b'Installing rrt_node script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt\n'}
+[0.610015] (turtlebot_rrt) StdoutLine: {'line': b"writing list of installed files to '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log'\n"}
+[0.625925] (turtlebot_rrt) CommandEnded: {'returncode': 0}
+[0.635392] (turtlebot_rrt) JobEnded: {'identifier': 'turtlebot_rrt', 'rc': 0}
+[0.635678] (-) EventReactorShutdown: {}

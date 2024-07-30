@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/turtlebot_rrt/turtlebot_rrt.egg-info
+writing ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot_rrt/turtlebot_rrt.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot_rrt/turtlebot_rrt.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build
+creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib
+creating /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+copying src/turtlebot_rrt/rrt.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+copying src/turtlebot_rrt/__init__.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+copying src/turtlebot_rrt/map_reader_template.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+copying src/turtlebot_rrt/rrt_node.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+copying src/turtlebot_rrt/motion_planner.py -> /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt
+running install
+running install_lib
+creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/rrt.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/__init__.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/map_reader_template.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/rrt_node.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+copying /home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/build/lib/turtlebot_rrt/motion_planner.py -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt
+byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/rrt.py to rrt.cpython-310.pyc
+byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/map_reader_template.py to map_reader_template.cpython-310.pyc
+byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/rrt_node.py to rrt_node.cpython-310.pyc
+byte-compiling /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt/motion_planner.py to motion_planner.cpython-310.pyc
+running install_data
+creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index
+creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index
+creating /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index/packages
+copying resource/turtlebot_rrt -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/ament_index/resource_index/packages
+copying package.xml -> /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/share/turtlebot_rrt
+running install_egg_info
+Copying ../../build/turtlebot_rrt/turtlebot_rrt.egg-info to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/python3.10/site-packages/turtlebot_rrt-0.0.0-py3.10.egg-info
+running install_scripts
+Installing map_reader script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+Installing motion_planner script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+Installing rrt_node script to /home/rcpsl/Xue_Yanyaobo_ws/install/turtlebot_rrt/lib/turtlebot_rrt
+writing list of installed files to '/home/rcpsl/Xue_Yanyaobo_ws/build/turtlebot_rrt/install.log'
