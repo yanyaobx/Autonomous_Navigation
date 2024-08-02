@@ -65,6 +65,32 @@ The `RRT_Node.py` script implements the RRT algorithm for path planning in ROS2.
 - `coord_to_index` and `index_to_coord`: Handle conversion between real-world coordinates and map indices.
 - `publish_trajectory`: Publishes the computed trajectory.
 
+## How to Run
+
+1. **Set up the environment:**
+   - Install Ubuntu and ROS2 Humble.
+   - Set up the TurtleBot3 simulator.
+   - Create a ROS workspace and clone the project repository.
+
+2. **Start the map server node:**
+   ```bash
+   ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=warehouse.yaml
+   ros2 lifecycle set /map_server configure
+   ros2 lifecycle set /map_server activate
+
+3. **Start the PID controller node:**
+   ```bash
+   ros2 run TurtleBot PID_Controller
+
+4. **Start the motion planner node:**
+   ```bash
+   ros2 run TurtleBot Motion_Planner
+
+5. **Run the RRT node:**
+   ```bash
+   ros2 run TurtleBot rrt_node
+
+
 ## Evaluation
 
 The project was evaluated by testing the robot's ability to navigate to multiple target points. The system's performance was measured based on the time taken for the robot to move along the computed trajectory. Plots of the generated paths were included in the report, demonstrating the effectiveness of the implemented algorithms.
